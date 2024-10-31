@@ -1,0 +1,122 @@
+#sendsmith_admin_field_list,#sendsmith_admin_tags_list{
+    max-width: 700px;
+}
+
+.sendsmith-tags-pagelist-edit,.sendsmith-tags-pagelist-edit-tpl,.sendsmith-role-tags,.sendsmith-form-tags{
+    width: 320px;
+}
+
+.sendsmith-form-tags{
+    margin-top: 10px;
+}
+
+input.select2-search__field:focus{
+    outline: none !important;
+    border-width: 0px;
+    outline:0; /* I have also tried outline:none */
+    -webkit-appearance:none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.sendsmith-role-tags-status{
+    margin-left: 10px !important;
+}
+
+.toplevel_page_sendsmith .wp-menu-image img{
+    margin-top: -4px;
+}
+
+.sendsmith-admin-container .button{
+    	background: #973137 !important;
+    	color: #ffffff;
+	border-color: #973137 !important;
+    	-webkit-box-shadow: inset 0 1px 0 #973137,0 1px 0 rgba(0,0,0,.15);
+    	box-shadow: inset 0 1px 0 #973137,0 1px 0 rgba(0,0,0,.15);
+}
+
+.sendsmith-admin-container .button:hover{
+    	background: #973137 !important;
+    	color: #ffffff;
+    	border-color: #973137 !important;
+	-webkit-box-shadow: inset 0 1px 0 #973137,0 1px 0 rgba(0,0,0,.15) !important;
+    	box-shadow: inset 0 1px 0 #973137,0 1px 0 rgba(0,0,0,.15) !important;
+}
+
+.select2-search__field{
+	padding: initial !important;
+}
+
+input.sendsmith-api-key { width: 700px; }
+input.sendsmith-api-secret { width: 700px; }
+
+.interest_groups ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.interest_groups li > ul {
+	margin-bottom: 0;
+	margin-left: 20px;
+}
+.interest_groups li div.li-inner {
+	overflow: hidden;
+	line-height: 25px;
+	/* background-color: #F9F7F4; */
+}
+.interest_groups li.last-child > ul { 
+	margin-left: -1px;
+	margin-bottom: 0;
+	padding-left: 20px;
+	border-left: 1px solid #F9F7F4;
+}
+.interest_groups span.group-title {
+	display: block;
+	height: 18px;
+	line-height: 18px;
+}
+.interest_groups li li {
+	position: relative;
+	border-left: 1px solid #000;
+	margin-bottom: 0px;
+}
+.interest_groups li.last-child span.line-helper {
+	margin-left: -1px;
+	border-left: 2px solid #F9F7F4;
+}
+.interest_groups li.last-child span.line-helper1 {
+        margin: 0;
+}
+.interest_groups span.line-helper {
+	border-top: 1px solid #000000;
+	bottom: 0;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 13px;
+	width: 12px;
+}
+.interest_groups .group-text {
+	display: inline-block;
+	height: 18px;
+	line-height: 18px;
+	margin-left: 15px;
+}
+.interest_groups li li .action-list {
+	float: right;
+}
+.interest_groups li li .action-list a {
+	margin-right: 20px;
+}
+.interest_groups li li .action-list a:nth-last-of-type(1) {
+	margin-right: 0;
+}
+.interest_groups .noResults {
+	padding-top: 20px;
+}
+.interest_groups label span {
+	margin-right: 5px;
+}
